@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --serve"
   },
   "keywords": [],
   "author": "",
@@ -85,6 +85,7 @@
     "esprima": "^4.0.1",
     "etag": "^1.8.1",
     "eventemitter3": "^4.0.7",
+    "express": "^4.18.2",
     "extend-shallow": "^2.0.1",
     "fast-glob": "^3.2.12",
     "fastq": "^1.15.0",
